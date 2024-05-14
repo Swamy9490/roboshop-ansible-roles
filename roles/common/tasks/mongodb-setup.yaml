@@ -22,6 +22,6 @@
 #   ansible.builtin.debug:
 #     msg: "entries count: {{entries_count}}"
 
-- name: "load catalogue data"
+- name: "load {{component}} data"
   ansible.builtin.shell: "mongo --host mongodb.swamydevops.cloud < /app/schema/{{component}}.js"
   when: entries_count.stdout == "0"  # keep double quotes
