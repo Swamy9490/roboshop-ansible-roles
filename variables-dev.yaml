@@ -1,0 +1,10 @@
+MONGODB_HOST: mongodb-dev.swamydevops.cloud
+USER_HOST: user-dev.swamydevops.cloud
+CATALOGUE_HOST: catalogue-dev.swamydevops.cloud
+CART_HOST: cart-dev.swamydevops.cloud
+DISPATCH_HOST: distpatch-dev.swamydevops.cloud
+PAYMENT_HOST: payment-dev.swamydevops.cloud
+SHIPPING_HOST: shipping-dev.swamydevops.cloud
+MYSQL_HOST: mysql-dev.swamydevops.cloud
+RABBITMQ_HOST: rabbitmq-dev.swamydevops.cloud
+REDIS_HOST: redis-dev.swamydevops.cloud
